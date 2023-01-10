@@ -2,7 +2,7 @@
 	"name": "dssink",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureDataLakeStorage3",
+			"referenceName": "AzureDataLakeStorage2",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -10,8 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "output3",
-				"fileSystem": "container3"
+				"folderPath": "adwork/output/sales",
+				"fileSystem": "container1"
 			},
 			"columnDelimiter": "\t",
 			"escapeChar": "\\",
