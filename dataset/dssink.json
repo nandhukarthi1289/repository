@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "adwork/output/market",
+				"folderPath": "adwork/output/sales",
 				"fileSystem": "container1"
 			},
 			"columnDelimiter": "\t",
