@@ -16,10 +16,22 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataset": {
-						"referenceName": "get1",
-						"type": "DatasetReference"
+						"referenceName": "getmetadatads",
+						"type": "DatasetReference",
+						"parameters": {
+							"filename": {
+								"value": "@endswith('csv','txt')",
+								"type": "Expression"
+							}
+						}
 					},
-					"fieldList": [],
+					"fieldList": [
+						"childItems",
+						"exists",
+						"itemName",
+						"itemType",
+						"lastModified"
+					],
 					"storeSettings": {
 						"type": "AzureBlobFSReadSettings",
 						"enablePartitionDiscovery": false
