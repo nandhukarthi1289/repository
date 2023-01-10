@@ -30,19 +30,12 @@
 				"typeProperties": {
 					"dataset": {
 						"referenceName": "sourcecopydscsv",
-						"type": "DatasetReference",
-						"parameters": {
-							"filename": {
-								"value": "@pipeline().parameters.filename",
-								"type": "Expression"
-							}
-						}
+						"type": "DatasetReference"
 					},
 					"fieldList": [
 						"childItems",
 						"itemName",
 						"exists",
-						"columnCount",
 						"itemType"
 					],
 					"storeSettings": {
