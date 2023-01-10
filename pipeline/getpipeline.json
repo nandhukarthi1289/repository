@@ -157,7 +157,7 @@
 										],
 										"outputs": [
 											{
-												"referenceName": "dssink",
+												"referenceName": "salessink",
 												"type": "DatasetReference"
 											}
 										]
