@@ -19,10 +19,6 @@
 				}
 			],
 			"scriptLines": [
-				"parameters{",
-				"     parameter1 as integer,",
-				"     parameter2 as integer",
-				"}",
 				"source(output(",
 				"          ProductID as string,",
 				"          Name as string,",
