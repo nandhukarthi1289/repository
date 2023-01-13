@@ -19,7 +19,13 @@
 						"referenceName": "getac",
 						"type": "DatasetReference"
 					},
-					"fieldList": [],
+					"fieldList": [
+						"childItems",
+						"itemType",
+						"itemName",
+						"lastModified",
+						"exists"
+					],
 					"storeSettings": {
 						"type": "AzureBlobFSReadSettings",
 						"enablePartitionDiscovery": false
