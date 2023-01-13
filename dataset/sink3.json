@@ -5,21 +5,12 @@
 			"referenceName": "AzureDataLakeStorage2",
 			"type": "LinkedServiceReference"
 		},
-		"parameters": {
-			"filename": {
-				"type": "string"
-			}
-		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": {
-					"value": "@dataset().filename",
-					"type": "Expression"
-				},
-				"folderPath": "adwork/output",
+				"folderPath": "adwork/output/sales",
 				"fileSystem": "container1"
 			},
 			"columnDelimiter": ",",
