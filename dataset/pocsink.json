@@ -1,5 +1,5 @@
 {
-	"name": "poccopy",
+	"name": "pocsink",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage4",
@@ -10,12 +10,10 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "AdventureWorksLT2012-20230114T192700Z-001.zip",
-				"folderPath": "input",
+				"folderPath": "output",
 				"fileSystem": "pocdemo"
 			},
-			"columnDelimiter": "\t",
-			"compressionCodec": "ZipDeflate",
+			"columnDelimiter": ",",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
