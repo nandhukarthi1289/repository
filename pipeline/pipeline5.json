@@ -85,10 +85,7 @@
 													"enablePartitionDiscovery": false
 												},
 												"formatSettings": {
-													"type": "DelimitedTextReadSettings",
-													"compressionProperties": {
-														"type": "ZipDeflateReadSettings"
-													}
+													"type": "DelimitedTextReadSettings"
 												}
 											},
 											"sink": {
