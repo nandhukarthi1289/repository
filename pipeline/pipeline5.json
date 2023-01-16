@@ -122,7 +122,13 @@
 										"outputs": [
 											{
 												"referenceName": "get5",
-												"type": "DatasetReference"
+												"type": "DatasetReference",
+												"parameters": {
+													"filename": {
+														"value": "@activity('Get Metadata1').output.childItems",
+														"type": "Expression"
+													}
+												}
 											}
 										]
 									}
