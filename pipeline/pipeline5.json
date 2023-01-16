@@ -82,14 +82,6 @@
 												"storeSettings": {
 													"type": "AzureBlobFSReadSettings",
 													"recursive": true,
-													"wildcardFolderPath": {
-														"value": "@activity('Get Metadata1').output.childItems",
-														"type": "Expression"
-													},
-													"wildcardFileName": {
-														"value": "@item().name",
-														"type": "Expression"
-													},
 													"enablePartitionDiscovery": false
 												},
 												"formatSettings": {
@@ -150,14 +142,6 @@
 												"storeSettings": {
 													"type": "AzureBlobFSReadSettings",
 													"recursive": true,
-													"wildcardFolderPath": {
-														"value": "@activity('Get Metadata1').output.childItems",
-														"type": "Expression"
-													},
-													"wildcardFileName": {
-														"value": "@item().name",
-														"type": "Expression"
-													},
 													"enablePartitionDiscovery": false
 												},
 												"formatSettings": {
