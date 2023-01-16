@@ -23,7 +23,6 @@
 				"fileSystem": "pocdemo"
 			},
 			"columnDelimiter": "\t",
-			"compressionCodec": "ZipDeflate",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""

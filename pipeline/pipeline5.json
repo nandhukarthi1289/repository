@@ -134,7 +134,7 @@
 								],
 								"ifTrueActivities": [
 									{
-										"name": "Copy data1",
+										"name": "product",
 										"type": "Copy",
 										"dependsOn": [],
 										"policy": {
@@ -154,10 +154,7 @@
 													"enablePartitionDiscovery": false
 												},
 												"formatSettings": {
-													"type": "DelimitedTextReadSettings",
-													"compressionProperties": {
-														"type": "ZipDeflateReadSettings"
-													}
+													"type": "DelimitedTextReadSettings"
 												}
 											},
 											"sink": {
