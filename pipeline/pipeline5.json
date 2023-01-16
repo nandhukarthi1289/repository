@@ -20,10 +20,10 @@
 						"type": "DatasetReference"
 					},
 					"fieldList": [
-						"childItems",
 						"itemType",
 						"itemName",
-						"exists"
+						"exists",
+						"childItems"
 					],
 					"storeSettings": {
 						"type": "AzureBlobFSReadSettings",
@@ -112,13 +112,7 @@
 										"inputs": [
 											{
 												"referenceName": "poccopy",
-												"type": "DatasetReference",
-												"parameters": {
-													"filename": {
-														"value": "@item().name",
-														"type": "Expression"
-													}
-												}
+												"type": "DatasetReference"
 											}
 										],
 										"outputs": [
@@ -178,13 +172,7 @@
 										"inputs": [
 											{
 												"referenceName": "poccopy",
-												"type": "DatasetReference",
-												"parameters": {
-													"filename": {
-														"value": "@item().name",
-														"type": "Expression"
-													}
-												}
+												"type": "DatasetReference"
 											}
 										],
 										"outputs": [
