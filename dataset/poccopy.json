@@ -15,6 +15,10 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset().filename",
+					"type": "Expression"
+				},
 				"folderPath": "output/AdventureWorksLT2012-20230114T192700Z-001.zip/AdventureWorksLT2012",
 				"fileSystem": "pocdemo"
 			},
