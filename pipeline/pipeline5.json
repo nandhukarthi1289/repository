@@ -113,7 +113,13 @@
 										"inputs": [
 											{
 												"referenceName": "poccopy",
-												"type": "DatasetReference"
+												"type": "DatasetReference",
+												"parameters": {
+													"filename": {
+														"value": "@item().name",
+														"type": "Expression"
+													}
+												}
 											}
 										],
 										"outputs": [
@@ -173,7 +179,13 @@
 										"inputs": [
 											{
 												"referenceName": "source5",
-												"type": "DatasetReference"
+												"type": "DatasetReference",
+												"parameters": {
+													"filename": {
+														"value": "@item().name",
+														"type": "Expression"
+													}
+												}
 											}
 										],
 										"outputs": [
