@@ -61,7 +61,7 @@
 							"userProperties": [],
 							"typeProperties": {
 								"expression": {
-									"value": "@startswith(item().name,'SalesLTProduct')",
+									"value": "@startswith(item().name,'SalesLTProduct.txt')",
 									"type": "Expression"
 								},
 								"ifFalseActivities": [
