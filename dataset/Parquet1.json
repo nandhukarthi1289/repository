@@ -22,7 +22,7 @@
 				"folderPath": "output/AdventureWorksLT2012-20230114T192700Z-001.zip/AdventureWorksLT2012",
 				"fileSystem": "pocdemo"
 			},
-			"compressionCodec": "snappy"
+			"compressionCodec": "none"
 		},
 		"schema": []
 	}
