@@ -79,11 +79,14 @@
 										"userProperties": [],
 										"typeProperties": {
 											"source": {
-												"type": "ParquetSource",
+												"type": "DelimitedTextSource",
 												"storeSettings": {
 													"type": "AzureBlobFSReadSettings",
 													"recursive": true,
 													"enablePartitionDiscovery": false
+												},
+												"formatSettings": {
+													"type": "DelimitedTextReadSettings"
 												}
 											},
 											"sink": {
@@ -107,14 +110,8 @@
 										},
 										"inputs": [
 											{
-												"referenceName": "Parquet3",
-												"type": "DatasetReference",
-												"parameters": {
-													"filename": {
-														"value": "@item().name",
-														"type": "Expression"
-													}
-												}
+												"referenceName": "DelimitedText7",
+												"type": "DatasetReference"
 											}
 										],
 										"outputs": [
