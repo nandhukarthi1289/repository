@@ -19,7 +19,7 @@
 					"value": "@dataset().filename",
 					"type": "Expression"
 				},
-				"folderPath": "bronze/customer",
+				"folderPath": "output/AdventureWorksLT2012-20230114T192700Z-001.zip/AdventureWorksLT2012",
 				"fileSystem": "pocdemo"
 			},
 			"columnDelimiter": ",",
