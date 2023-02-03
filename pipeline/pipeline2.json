@@ -93,13 +93,7 @@
 					},
 					"dataset": {
 						"referenceName": "DelimitedText8",
-						"type": "DatasetReference",
-						"parameters": {
-							"filename": {
-								"value": "@activity('copyactivity').output",
-								"type": "Expression"
-							}
-						}
+						"type": "DatasetReference"
 					}
 				}
 			}
